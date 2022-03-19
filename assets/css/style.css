@@ -1,0 +1,86 @@
+/*Estilo da página indes.html*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+    font-family: system-ui;
+    background-color:   #7e6279;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px; 
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color:brown;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+
+.tm-social {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*Estilo da página contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.foto-perfil{
+    width: 250px;
+    height: 250px;
+}
+
+.sobre-mim {
+    margin-right: 20px;
+}
