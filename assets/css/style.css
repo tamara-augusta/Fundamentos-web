@@ -76,6 +76,19 @@ body {
     margin-left: 50px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px
+}
+
+button {
+    width: 50%;
+}
+
 .foto-perfil{
     width: 250px;
     height: 250px;
