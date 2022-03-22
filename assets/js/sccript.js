@@ -36,7 +36,7 @@ function validaNome() {
 function validaEmail() {
     txtEmail.style.color = ('#email')
 
-    if(email.value.indexOf ('@') == - 1 || email.value.indexOf('.') == -1) {
+    if(email.value.indexOf('@') == - 1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = 'E-mail inválido'
         txtEmail.style.color = 'red'
     } else {
